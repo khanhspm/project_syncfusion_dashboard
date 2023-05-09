@@ -1,0 +1,28 @@
+.column-To.do{
+    background-color: aliceblue;
+    text-align: center;
+    color: black;
+}
+
+.column-In.progress{
+    background-color: rgb(238, 217, 30);
+    text-align: center;
+    color: rgb(17, 13, 7);
+}
+
+.column-Completed{
+    background-color: rgb(66, 240, 81);
+    text-align: center;
+    color: rgb(2, 15, 2);
+}
+
+.column {
+    width: 300px;
+    max-height: 700px;
+    border-radius: 15px;
+    padding: 17px 25px;
+    font-size: 1.4em;
+    font-weight: 400;
+    font-style: italic;
+    transition: 1s;
+  }

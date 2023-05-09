@@ -1,26 +1,19 @@
 {
-  "name": "dashboard",
+  "name": "kanban",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@syncfusion/ej2": "^21.1.41",
-    "@syncfusion/ej2-react-calendars": "^21.1.41",
-    "@syncfusion/ej2-react-charts": "^21.1.41",
-    "@syncfusion/ej2-react-dropdowns": "^21.1.41",
-    "@syncfusion/ej2-react-grids": "^21.1.41",
-    "@syncfusion/ej2-react-inputs": "^21.1.39",
-    "@syncfusion/ej2-react-kanban": "^21.1.39",
-    "@syncfusion/ej2-react-popups": "^21.1.41",
-    "@syncfusion/ej2-react-richtexteditor": "^21.1.41",
-    "@syncfusion/ej2-react-schedule": "^21.1.41",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
+    "react-beautiful-dnd": "^13.1.1",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.8.0",
-    "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1",
+    "react-uuid": "^2.0.0",
+    "styled-components": "^5.3.10",
+    "uuid": "^9.0.0",
+    "vite": "^4.3.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -46,8 +39,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "tailwindcss": "^3.3.1"
   }
 }
